@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Notepad Rapid — stažení</title>
+<style>
+  :root {
+    --bg: #f6f7fb;
+    --card: #ffffff;
+    --ink: #17203a;
+    --muted: #5b6478;
+    --accent: #3c5a99;
+    --line: #e2e6f0;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#11151f; --card:#1a2030; --ink:#eef1f8; --muted:#a6afc2; --accent:#8aa6e8; --line:#2a3244; }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 24px 16px 48px;
+    background: var(--bg); color: var(--ink);
+    font-family: -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+    line-height: 1.55;
+  }
+  .wrap { max-width: 720px; margin: 0 auto; }
+  h1 { font-size: 1.9rem; margin: 0 0 4px; }
+  .tag { color: var(--muted); margin: 0 0 24px; }
+  .card {
+    background: var(--card); border: 1px solid var(--line);
+    border-radius: 16px; padding: 20px; margin-bottom: 16px;
+  }
+  .dl {
+    display: block; text-align: center; text-decoration: none;
+    background: var(--accent); color: #fff; font-weight: 700; font-size: 1.15rem;
+    padding: 18px 20px; border-radius: 14px;
+  }
+  .dl small { display: block; font-weight: 400; opacity: .85; font-size: .85rem; margin-top: 4px; }
+  .qr { text-align: center; }
+  .qr img { width: 220px; max-width: 70%; height: auto; border-radius: 12px; background: #fff; padding: 8px; }
+  h2 { font-size: 1.1rem; margin: 0 0 8px; }
+  ol, ul { margin: 0; padding-left: 20px; }
+  li { margin-bottom: 6px; }
+  code { background: rgba(128,140,170,.18); padding: 1px 6px; border-radius: 6px; font-size: .9em; }
+  .muted { color: var(--muted); font-size: .92rem; }
+  a { color: var(--accent); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Notepad Rapid</h1>
+  <p class="tag">Rychlé poznámky a seznamy — a z fotek udělá inzerát na Bazoš, Sbazar i Facebook Marketplace.</p>
+
+  <div class="card">
+    <a class="dl" href="https://github.com/walterX12/notepad-rapid/releases/latest/download/notepad-rapid-latest.apk">
+      Stáhnout APK
+      <small>vždy nejnovější verze &middot; Android 13 a novější</small>
+    </a>
+  </div>
+
+  <div class="card qr">
+    <h2>Nebo naskenuj telefonem</h2>
+    <img src="qr.png" alt="QR kód s odkazem ke stažení APK">
+    <p class="muted">QR vede přímo na stažení nejnovějšího APK.</p>
+  </div>
+
+  <div class="card">
+    <h2>Jak nainstalovat</h2>
+    <ol>
+      <li>Stáhni APK (tlačítko nebo QR výše).</li>
+      <li>Otevři stažený soubor — v <b>Chrome</b> přes „Stažené soubory", nebo v aplikaci <b>Files</b>.</li>
+      <li>Android se zeptá na povolení instalace z tohoto zdroje — povol ho.</li>
+      <li>Potvrď instalaci a hotovo.</li>
+    </ol>
+    <p class="muted">Aplikace <b>není</b> na Google Play, takže instalace probíhá ze souboru. Správce souborů
+      z Play Store (např. Total Commander) APK nainstalovat nesmí — použij Chrome nebo Files.</p>
+  </div>
+
+  <div class="card">
+    <h2>Co appka umí</h2>
+    <ul>
+      <li>Seznamy s odškrtáváním, poznámkami, fotkami a přesouváním tažením.</li>
+      <li>Štítky a složky pro rychlé filtrování.</li>
+      <li>Z fotek napíše AI inzerát a navrhne cenu podle nabídek na bazarech (medián, bez extrémů).</li>
+      <li>Formulář na portálu předvyplní včetně fotek — odeslání potvrzuješ ty.</li>
+      <li>Umí postupně zlevňovat inzerát podle plánu, který sám potvrdíš.</li>
+      <li>QR platba do bankovní aplikace (ověření účtu na Bazoši).</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>AI klíče</h2>
+    <p class="muted">Balíček je bez API klíčů. Svůj klíč (Gemini, Groq nebo OpenRouter) zadáš v
+      <b>Nastavení → AI klíče</b>; uloží se šifrovaně jen v telefonu. Bez klíče appka funguje jako
+      poznámkový blok, jen negeneruje inzeráty.</p>
+  </div>
+
+  <p class="muted">Všechny verze najdeš v
+    <a href="https://github.com/walterX12/notepad-rapid/releases">seznamu vydání</a>.</p>
+</div>
+</body>
+</html>
