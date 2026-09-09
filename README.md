@@ -37,6 +37,20 @@ Aplikace **neobsahuje žádné API klíče** — zadáš si vlastní v *Nastaven
 | **Groq** | rychlá textová kontrola formuláře |
 | **OpenRouter** | libovolný model, volitelný zvlášť pro generování a zvlášť pro kontrolu |
 | **V telefonu (bez cloudu)** | Gemini Nano přes AICore — jen na podporovaných zařízeních (Pixel 9+, Galaxy S25…) |
+| **Gemma 3n v telefonu** | Multimodální model běžící lokálně přes MediaPipe — **funguje i na střední třídě**, model si stáhneš sám (viz níže) |
+
+### Gemma 3n offline (bez AICore i bez internetu)
+
+Aplikace umí spustit **Gemma 3n** přímo v telefonu — nepotřebuje AICore ani API klíč.
+
+1. Stáhni si soubor modelu `.task` (doporučeno **Gemma 3n E2B**, ~2–3 GB) z LiteRT community na
+   Hugging Face — vyžaduje přihlášení a odsouhlasení licence Gemma.
+2. V aplikaci: *Nastavení → AI provider →* **Vybrat model** a soubor `.task` najdi v úložišti.
+   Model se zkopíruje do aplikace (chvíli to trvá, hlásí průběh v MB).
+3. Nastav **Gemma 3n v telefonu** jako primárního (nebo záložního) providera.
+
+> Inference na střední třídě trvá jednotky až desítky sekund a model zabere místo v telefonu.
+> Kdykoli ho lze zase smazat tlačítkem *Smazat model*.
 
 Lze zvolit **primárního** a **záložního** providera (při vyčerpání kvóty se přepne automaticky).
 
