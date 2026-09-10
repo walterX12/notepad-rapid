@@ -1,4 +1,6 @@
-# Notepad Rapid
+# SnapSell
+
+> Dřív *SnapSell* — aplikace i odkazy zůstávají stejné, změnil se jen název.
 
 Rychlý poznámkový blok pro Android, který z fotek a poznámky **vytvoří inzerát** a **předvyplní ho
 na českých bazarech**.
