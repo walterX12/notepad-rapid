@@ -48,6 +48,12 @@
     background: rgba(220, 150, 40, .14); border-left: 4px solid #d8912a;
     padding: 10px 14px; border-radius: 8px; font-size: .95rem; margin: 12px 0 0;
   }
+  .ver {
+    display: flex; align-items: center; justify-content: center; gap: 8px;
+    margin-top: 12px; color: var(--muted); font-size: .95rem; text-align: center;
+  }
+  .ver b { color: var(--ink); font-weight: 700; }
+  .ver a { text-decoration: none; }
   .applogo { width: 88px; height: 88px; border-radius: 20px; display: block; margin-bottom: 10px; }
   .shot { margin: 16px 0 0; text-align: center; }
   .shot img {
@@ -69,6 +75,11 @@
       Stáhnout APK
       <small>vždy nejnovější verze &middot; Android 13 a novější</small>
     </a>
+    <p class="ver" id="ver">
+      <span>Aktuální verze: <b id="verNum">0.34.1</b></span>
+      <span id="verMeta"></span>
+      <a href="https://github.com/walterX12/notepad-rapid/releases" id="verLink">co je nového</a>
+    </p>
   </div>
 
   <div class="card qr">
@@ -123,3 +134,30 @@
 </div>
 </body>
 </html>
+<script>
+  // Verzi bereme rovnou z GitHubu, aby stránka nezastarala. Když se to nepovede,
+  // zůstane hodnota vypsaná v HTML.
+  (function () {
+    var API = 'https://api.github.com/repos/walterX12/notepad-rapid/releases/latest';
+    fetch(API, { headers: { Accept: 'application/vnd.github+json' } })
+      .then(function (r) { return r.ok ? r.json() : Promise.reject(r.status); })
+      .then(function (rel) {
+        var num = String(rel.tag_name || '').replace(/^v/, '');
+        if (num) document.getElementById('verNum').textContent = num;
+
+        var parts = [];
+        if (rel.published_at) {
+          parts.push(new Date(rel.published_at).toLocaleDateString('cs-CZ'));
+        }
+        var apk = (rel.assets || []).filter(function (a) {
+          return /\.apk$/i.test(a.name) && !/latest/i.test(a.name);
+        })[0] || (rel.assets || [])[0];
+        if (apk && apk.size) parts.push(Math.round(apk.size / 1048576) + ' MB');
+        if (parts.length) {
+          document.getElementById('verMeta').textContent = '· ' + parts.join(' · ');
+        }
+        if (rel.html_url) document.getElementById('verLink').href = rel.html_url;
+      })
+      .catch(function () { /* offline nebo limit API — necháme statickou hodnotu */ });
+  })();
+</script>
