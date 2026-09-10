@@ -43,6 +43,10 @@
   li { margin-bottom: 6px; }
   code { background: rgba(128,140,170,.18); padding: 1px 6px; border-radius: 6px; font-size: .9em; }
   .muted { color: var(--muted); font-size: .92rem; }
+  .warn {
+    background: rgba(220, 150, 40, .14); border-left: 4px solid #d8912a;
+    padding: 10px 14px; border-radius: 8px; font-size: .95rem; margin: 12px 0 0;
+  }
   a { color: var(--accent); }
 </style>
 </head>
@@ -67,11 +71,16 @@
   <div class="card">
     <h2>Jak nainstalovat</h2>
     <ol>
+      <li><b>Samsung: vypni Auto Blocker</b> — <i>Nastavení → Zabezpečení a soukromí → Auto Blocker</i>.
+        Dokud je zapnutý, instalaci ze souboru zablokuje.</li>
       <li>Stáhni APK (tlačítko nebo QR výše).</li>
       <li>Otevři stažený soubor — v <b>Chrome</b> přes „Stažené soubory", nebo v aplikaci <b>Files</b>.</li>
       <li>Android se zeptá na povolení instalace z tohoto zdroje — povol ho.</li>
       <li>Potvrď instalaci a hotovo.</li>
     </ol>
+    <p class="warn"><b>Povolení vydrží jen asi 30 minut.</b> Telefon si ho sám zase vypne, takže před
+      každou další instalací (třeba při aktualizaci na novou verzi) je potřeba Auto Blocker vypnout
+      a instalaci z neznámého zdroje povolit <b>znovu</b>.</p>
     <p class="muted">Aplikace <b>není</b> na Google Play, takže instalace probíhá ze souboru. Správce souborů
       z Play Store (např. Total Commander) APK nainstalovat nesmí — použij Chrome nebo Files.</p>
   </div>

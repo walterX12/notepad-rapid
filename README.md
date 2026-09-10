@@ -62,9 +62,18 @@ Lze zvolit **primárního** a **záložního** providera (při vyčerpání kvó
 
 ## Instalace
 
-1. Stáhni `app-release.apk` z [Releases](../../releases/latest).
-2. V telefonu povol instalaci z neznámých zdrojů a APK nainstaluj.
-3. V *Nastavení* zadej svůj AI klíč a kontaktní údaje pro inzeráty.
+**[Stahovací stránka s QR kódem](https://walterx12.github.io/notepad-rapid/)** — nebo přímý odkaz na
+nejnovější verzi: [`notepad-rapid-latest.apk`](../../releases/latest/download/notepad-rapid-latest.apk).
+
+1. **Samsung: vypni Auto Blocker** — *Nastavení → Zabezpečení a soukromí → Auto Blocker*. Se zapnutým
+   Auto Blockerem se APK nenainstaluje.
+2. Stáhni APK a otevři ho v **Chrome** („Stažené soubory") nebo v aplikaci **Files**.
+   Správce souborů z Play Store (Total Commander) instalovat APK nesmí.
+3. Povol instalaci z tohoto zdroje a potvrď instalaci.
+4. V *Nastavení* zadej svůj AI klíč a kontaktní údaje pro inzeráty.
+
+> **Povolení platí jen asi 30 minut** — telefon si ho sám vypne. Před každou další instalací (i při
+> aktualizaci na novou verzi) je proto nutné Auto Blocker vypnout a instalaci ze zdroje povolit znovu.
 
 > APK je podepsané vývojářským klíčem — Android proto při instalaci upozorní, že aplikace není z obchodu.
 
