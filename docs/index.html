@@ -47,6 +47,12 @@
     background: rgba(220, 150, 40, .14); border-left: 4px solid #d8912a;
     padding: 10px 14px; border-radius: 8px; font-size: .95rem; margin: 12px 0 0;
   }
+  .shot { margin: 16px 0 0; text-align: center; }
+  .shot img {
+    width: 100%; max-width: 420px; height: auto;
+    border: 1px solid var(--line); border-radius: 12px;
+  }
+  .shot figcaption { color: var(--muted); font-size: .88rem; margin-top: 6px; }
   a { color: var(--accent); }
 </style>
 </head>
@@ -78,6 +84,11 @@
       <li>Android se zeptá na povolení instalace z tohoto zdroje — povol ho.</li>
       <li>Potvrď instalaci a hotovo.</li>
     </ol>
+    <figure class="shot">
+      <img src="samsung_auto_blocker.jpg" alt="Nastavení Samsungu s vypnutým přepínačem Auto Blocker">
+      <figcaption>Takhle to má vypadat — <i>Nastavení → Zabezpečení a soukromí → Auto Blocker</i> vypnutý.</figcaption>
+    </figure>
+
     <p class="warn"><b>Povolení vydrží jen asi 30 minut.</b> Telefon si ho sám zase vypne, takže před
       každou další instalací (třeba při aktualizaci na novou verzi) je potřeba Auto Blocker vypnout
       a instalaci z neznámého zdroje povolit <b>znovu</b>.</p>
