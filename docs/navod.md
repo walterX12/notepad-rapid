@@ -77,6 +77,16 @@ Hlavní obrazovka = přehled všeho, co inzeruješ. U každého inzerátu je vid
 Klepnutím na inzerát se otevře detail s celým textem, podkladem k ceně a tlačítkem **Publikovat**
 (nebo *Publikovat znovu*, když už někde běží).
 
+**Hledání a filtr** (nad výpisem):
+
+- do pole **Hledat v inzerátech** stačí napsat cokoli z inzerátu — hledá i v zadání pro AI a v názvu
+  portálu, diakritiku psát nemusíš („capek", „bazos"),
+- čipy **Vše / Nepublikované / Připravené / Publikované** ukážou jen inzeráty v daném stavu.
+
+**Hromadné mazání**: podrž prst na inzerátu → zapne se výběr (lišta *Vybráno: N*). Klepáním vybereš
+další, ✓ vybere všechny zobrazené, koš je smaže (po potvrzení). Maže se **jen evidence v aplikaci** —
+inzeráty, které už na portálu běží, musíš smazat na portálu.
+
 ---
 
 ## 5. Automatické zlevňování
