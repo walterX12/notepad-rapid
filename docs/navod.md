@@ -65,6 +65,13 @@ odchytí sama a u platby nabídne **QR kód do bankovní aplikace**.
 
 ---
 
+**Co ještě zbývá dokončit**: po vyplnění se nad stránkou objeví karta *Zbývá dokončit* — vypíše, co
+je hotové (✓ fotky, ✓ kategorie) a co musíš udělat ty (ověřit telefon, zaškrtnout souhlas
+s podmínkami, klepnout na odeslání). Kartu můžeš **Skrýt**, tlačítkem **Znovu** ji přepočítáš a
+kdykoli ji vyvoláš ikonou ✓ v horní liště.
+
+---
+
 ## 4. Evidence inzerátů
 
 Hlavní obrazovka = přehled všeho, co inzeruješ. U každého inzerátu je vidět:
