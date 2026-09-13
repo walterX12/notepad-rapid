@@ -9,8 +9,7 @@ Odeslání vždy potvrzuješ ty.
 
 **Jazyk**: při prvním spuštění si vybereš jazyk (nabídne se ten z telefonu). Appka umí češtinu,
 slovenštinu, angličtinu, němčinu, polštinu, ukrajinštinu, ruštinu, vietnamštinu, rumunštinu,
-bulharštinu, maďarštinu, španělštinu, francouzštinu, italštinu a portugalštinu. Změnit ho můžeš
-kdykoli v *Nastavení → Jazyk aplikace*.
+bulharštinu, maďarštinu, španělštinu, francouzštinu, italštinu a portugalštinu. Změnit ho můžeš kdykoli v *Nastavení → Jazyk aplikace* — vybereš ze seznamu a appka se hned přepne.
 
 
 Otevři **Nastavení** (ozubené kolo vpravo nahoře).
