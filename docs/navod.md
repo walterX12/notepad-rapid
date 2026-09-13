@@ -102,6 +102,10 @@ Klepnutím na inzerát se otevře detail s celým textem, podkladem k ceně a tl
 všechny tři) a klepni na *Publikovat (N)*. Appka tě provede zaškrtnutými portály za sebou — po
 zavření jednoho hned otevře další. Sérii můžeš kdykoli ukončit tlačítkem *Ukončit sérii*.
 
+**Stav inzerátů**: menu ⋮ → *Zkontrolovat stav na Bazoši*. Appka si otevře výpis tvých inzerátů
+a u každého evidovaného doplní, jestli **běží**, nebo **už neběží**. Inzeráty, které máš na portálu
+a v evidenci chybí, ti nabídne převzít.
+
 **Úprava inzerátu**: v detailu jsou vedle *Publikovat* tlačítka **Upravit** (titulek, cena, popis)
 a **Upravit přes AI** — napiš nebo nadiktuj, co má být jinak („zlevni na 120", „zdůrazni, že je
 nepoužitá"), a AI inzerát přepíše.
