@@ -25,6 +25,11 @@ Bez AI klíče appka funguje jako evidence inzerátů, jen negeneruje text.
 
 ## 2. Nový inzerát
 
+**Nejrychlejší cesta — z plochy**: přidej si widget **Vyfotit a inzerovat** (menu ⋮ → *Widget na
+plochu*) nebo dlaždici do rychlého nastavení (menu ⋮ → *Dlaždice do nastavení*). Jedno klepnutí
+otevře fotoaparát a ze snímku rovnou vznikne inzerát.
+
+
 **Dvě cesty, obě končí stejně:**
 
 1. **Z aplikace** — tlačítko *Nový inzerát* → vyber fotky.
