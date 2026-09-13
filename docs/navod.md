@@ -47,6 +47,9 @@ Cokoli můžeš přepsat ručně, nebo použít **Upravit přes AI** — napíš
 
 ## 3. Publikace
 
+> **Nastavení publikace**: v *Nastavení* si můžeš zapnout, že appka sama zaškrtne **souhlas
+> s podmínkami** portálu a že se u inzerátu **zveřejní telefon**. Obojí je výchozí vypnuté.
+
 Tlačítko **Publikovat** → vybereš portál (nebo *Všechny portály*).
 
 Otevře se stránka portálu s **předvyplněným formulářem**. Co udělá appka a co zbývá na tebe:
@@ -83,6 +86,12 @@ Hlavní obrazovka = přehled všeho, co inzeruješ. U každého inzerátu je vid
 
 Klepnutím na inzerát se otevře detail s celým textem, podkladem k ceně a tlačítkem **Publikovat**
 (nebo *Publikovat znovu*, když už někde běží).
+
+**Úprava inzerátu**: v detailu jsou vedle *Publikovat* tlačítka **Upravit** (titulek, cena, popis)
+a **Upravit přes AI** — napiš nebo nadiktuj, co má být jinak („zlevni na 120", „zdůrazni, že je
+nepoužitá"), a AI inzerát přepíše.
+
+**Menu ⋮** v horní liště: *Návod*, *Nahlásit chybu* a *O aplikaci* (číslo verze a odkaz na novější).
 
 **Hledání a filtr** (nad výpisem):
 
