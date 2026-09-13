@@ -7,6 +7,12 @@ Odeslání vždy potvrzuješ ty.
 
 ## 1. První nastavení (5 minut)
 
+**Jazyk**: při prvním spuštění si vybereš jazyk (nabídne se ten z telefonu). Appka umí češtinu,
+slovenštinu, angličtinu, němčinu, polštinu, ukrajinštinu, ruštinu, vietnamštinu, rumunštinu,
+bulharštinu, maďarštinu, španělštinu, francouzštinu, italštinu a portugalštinu. Změnit ho můžeš
+kdykoli v *Nastavení → Jazyk aplikace*.
+
+
 Otevři **Nastavení** (ozubené kolo vpravo nahoře).
 
 | Co vyplnit | Kde a proč |
