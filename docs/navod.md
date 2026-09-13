@@ -87,9 +87,9 @@ Hlavní obrazovka = přehled všeho, co inzeruješ. U každého inzerátu je vid
 Klepnutím na inzerát se otevře detail s celým textem, podkladem k ceně a tlačítkem **Publikovat**
 (nebo *Publikovat znovu*, když už někde běží).
 
-**Publikace na víc portálů**: v nabídce *Kam publikovat?* vyber **Všude postupně** — appka tě provede
-všemi portály za sebou (po zavření jednoho hned otevře další). Sérii můžeš kdykoli ukončit tlačítkem
-*Ukončit sérii*.
+**Publikace na víc portálů**: v nabídce *Kam publikovat?* si **zaškrtni portály** (jeden, dva nebo
+všechny tři) a klepni na *Publikovat (N)*. Appka tě provede zaškrtnutými portály za sebou — po
+zavření jednoho hned otevře další. Sérii můžeš kdykoli ukončit tlačítkem *Ukončit sérii*.
 
 **Úprava inzerátu**: v detailu jsou vedle *Publikovat* tlačítka **Upravit** (titulek, cena, popis)
 a **Upravit přes AI** — napiš nebo nadiktuj, co má být jinak („zlevni na 120", „zdůrazni, že je
