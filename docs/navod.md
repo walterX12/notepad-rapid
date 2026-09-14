@@ -78,6 +78,24 @@ odchytí sama a u platby nabídne **QR kód do bankovní aplikace**.
 
 ---
 
+**Kontrola před odesláním**: po vyplnění appka sama zkontroluje formulář a napíše, jestli sedí
+s inzerátem — ikonou ☑ v horní liště ji spustíš znovu. Dialog má tři části:
+
+- **shrnutí** („vše v pořádku" / „AI našla 2 připomínky"),
+- **připomínky** — co na stránce neodpovídá inzerátu nebo co portál hlásí červeně (třeba odmítnuté
+  telefonní číslo, cena v jiné měně),
+- **Portál ještě čeká na:** — kroky, bez kterých inzerát nepustí (ověřený telefon, souhlas).
+
+Tlačítkem **Doplnit dle AI** necháš doplnit prázdná pole; vyplněné hodnoty appka nepřepisuje
+a jméno, telefon ani hesla nedoplňuje nikdy.
+
+> **Nastavení → Kontrolovat i snímky stránky** (výchozí vypnuto): kontrola dostane i **obrázky
+> stránky tak, jak ji vidíš ty** — červené rámečky, vykřičníky a hlášky, které ve formuláři nejsou
+> vidět. Delší stránku projde po obrazovkách (až tři snímky) a vrátí ji tam, kde byla. Kontrola pak
+> trvá déle a spotřebuje víc kreditu, ale najde i to, co je „jen" nakreslené.
+
+---
+
 **Co ještě zbývá dokončit**: po vyplnění se nad stránkou objeví karta *Zbývá dokončit* — vypíše, co
 je hotové (✓ fotky, ✓ kategorie) a co musíš udělat ty (ověřit telefon, zaškrtnout souhlas
 s podmínkami, klepnout na odeslání). Kartu můžeš **Skrýt**, tlačítkem **Znovu** ji přepočítáš a
